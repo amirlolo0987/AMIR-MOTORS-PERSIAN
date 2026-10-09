@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موجودی خودروها | امیر موتورز</title>
+<meta name="description" content="لیست خودروهای لوکس، اسپرت، سدان و شاسی‌بلند امیر موتورز">
+<link rel="icon" href="assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark')}catch(e){}</script>
+</head>
+<body>
+
+
+<div class="rotate-warning">
+    <div class="warning-content">
+        <div class="phone-icon">📱</div>
+        <p>Please rotate your device</p>
+        <span>Screen is too small for the best experience</span>
+    </div>
+</div>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="index.html"><img src="assets/logo.webp" alt="لوگوی امیر موتورز"><span>امیر <b>موتورز</b></span></a>
+  <nav class="links" aria-label="منوی اصلی">
+      <a href="index.html">خانه</a>
+      <a href="inventory.html" class="on">موجودی خودروها</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+  </nav>
+  <div class="tools">
+    <a class="tel" href="tel:۰۹۰۳۷۲۵۸۱۵۶"><i class="fa-solid fa-phone"></i>۰۹۰۳۷۲۵۸۱۵۶</a>
+    <button class="icon-btn theme-btn" aria-label="تغییر تم"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    <button class="icon-btn burger" aria-label="باز کردن منو"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</div></header>
+
+<div class="drawer"><div class="back"></div>
+  <nav>
+    <button class="icon-btn close-drawer" aria-label="بستن منو"><i class="fa-solid fa-xmark"></i></button>
+      <a href="index.html">خانه</a>
+      <a href="inventory.html" class="on">موجودی خودروها</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+    <a href="#" class="open-support">پشتیبانی</a>
+  </nav>
+</div>
+
+<div class="toast" role="status">پیام شما با موفقیت ارسال شد ✔</div>
+<button class="fab open-support" aria-label="پشتیبانی"><i class="fa-solid fa-headset"></i></button>
+<div class="modal" role="dialog" aria-modal="true" aria-label="درخواست پشتیبانی">
+  <form class="form" novalidate data-form>
+    <h3>ثبت درخواست پشتیبانی<button type="button" class="icon-btn close-modal" aria-label="بستن"><i class="fa-solid fa-xmark"></i></button></h3>
+    <p style="color:var(--muted);font-size:.9rem">فرم زیر را پر کنید؛ تیم ما به‌زودی با شما تماس می‌گیرد.</p>
+    <div class="cols">
+      <div class="field"><label>نام و نام خانوادگی</label><input name="name" placeholder="مثلاً علی رضایی" autocomplete="name"><span class="err">نام کامل خود را وارد کنید</span></div>
+      <div class="field"><label>ایمیل</label><input name="email" dir="ltr" placeholder="name@example.com" autocomplete="email"><span class="err">ایمیل معتبر وارد کنید</span></div>
+    </div>
+    <div class="field"><label>پیام</label><textarea name="msg" placeholder="پیام خود را بنویسید…"></textarea><span class="err">پیام نمی‌تواند خالی باشد</span></div>
+    <button class="btn btn-fill" type="submit">ارسال</button>
+  </form>
+</div>
+
+<main>
+
+<section class="wrap page-head"><h1 class="sec-title">موجودی خودروها</h1><p>خودروی مورد علاقه‌ی خود را فیلتر یا جست‌وجو کنید.</p></section>
+<section class="wrap sec" style="padding-top:24px">
+  <div class="bar">
+    <div class="chips" role="group" aria-label="دسته‌بندی">
+    <button class="chip on" data-cat="all">همه</button>
+    <button class="chip" data-cat="luxury">لوکس</button>
+    <button class="chip" data-cat="sport">اسپرت</button>
+    <button class="chip" data-cat="sedan">سدان</button>
+    <button class="chip" data-cat="suv">شاسی‌بلند</button>
+    </div>
+    <input class="search" type="search" placeholder="جست‌وجوی مدل یا برند…" aria-label="جست‌وجو">
+  </div>
+  <div class="grid">
+    <article class="card reveal" data-cat="luxury">
+      <div class="card-top"><span class="year">۲۰۲۴</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/cullinan.webp" alt="رولزرویس کالینان" loading="lazy" ></div>
+      <div class="card-body"><h3><a class="card-link" href="car.html">رولزرویس کالینان</a></h3>
+        <p>۳٬۰۰۰ مایل · اتوماتیک · AWD</p>
+        <strong>۴۴۱٬۳۵۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="sedan">
+      <div class="card-top"><span class="year">۲۰۲۳</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/gt63.webp" alt="مرسدس AMG GT63" loading="lazy" ></div>
+      <div class="card-body"><h3>مرسدس AMG GT63</h3>
+        <p>۹٬۸۰۰ مایل · اتوماتیک · RWD</p>
+        <strong>۱۲۹٬۰۰۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="sport">
+      <div class="card-top"><span class="year">۲۰۱۸</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/sls.webp" alt="مرسدس SLS" loading="lazy"></div>
+      <div class="card-body"><h3>مرسدس SLS</h3>
+        <p>۱۳۹ مایل · اتوماتیک · RWD</p>
+        <strong>۲۴۹٬۶۵۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="luxury">
+      <div class="card-top"><span class="year">۲۰۲۰</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/chiron.webp" alt="بوگاتی شیرون" loading="lazy"></div>
+      <div class="card-body"><h3>بوگاتی شیرون</h3>
+        <p>۷۹ مایل · اتوماتیک · RWD</p>
+        <strong>۳٬۹۰۰٬۰۰۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="sport">
+      <div class="card-top"><span class="year">۲۰۲۲</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/audi-r8.png" alt="آئودی R8" loading="lazy" ></div>
+      <div class="card-body"><h3>آئودی R8</h3>
+        <p>۳۰٬۰۰۰ مایل · اتوماتیک · RWD</p>
+        <strong>۱۵۰٬۰۰۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="sport">
+      <div class="card-top"><span class="year">۲۰۲۴</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/bmw-m3.webp" alt="بی‌ام‌و M3" loading="lazy" ></div>
+      <div class="card-body"><h3>بی‌ام‌و M3</h3>
+        <p>۷۹٬۰۰۰ مایل · اتوماتیک · RWD</p>
+        <strong>۸۵٬۰۰۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="suv">
+      <div class="card-top"><span class="year">۲۰۲۳</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/escalade.png" alt="کادیلاک اسکالید" loading="lazy" ></div>
+      <div class="card-body"><h3>کادیلاک اسکالید</h3>
+        <p>۱۳٬۰۰۰ مایل · اتوماتیک · 4×4</p>
+        <strong>۹۰٬۰۰۰ دلار</strong></div>
+    </article>
+    <article class="card reveal" data-cat="suv">
+      <div class="card-top"><span class="year">۲۰۲۵</span>
+        <label class="heart" title="افزودن به علاقه‌مندی‌ها"><input type="checkbox" aria-label="علاقه‌مندی"><i class="fa-solid fa-heart"></i></label></div>
+      <div class="pic"><img src="assets/landcruiser.webp" alt="تویوتا لندکروزر" loading="lazy" ></div>
+      <div class="card-body"><h3>تویوتا لندکروزر</h3>
+        <p>۱۰٬۰۰۰ مایل · اتوماتیک · 4×4</p>
+        <strong>۵۸٬۰۰۰ دلار</strong></div>
+    </article>
+  </div>
+  <p class="empty" hidden>خودرویی با این مشخصات پیدا نشد.</p>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <div><h4>امیر موتورز</h4><p>ترکیب لوکس‌بودن و اطمینان؛ تجربه‌ای ممتاز از خرید خودرو، از اولین قدم تا تحویل کلید.</p>
+  <p>نشانی: ایران، اهواز، کیان‌آباد، شهر خودرو ۱، امیر موتورز</p></div>
+  <div><h4>دسترسی سریع</h4>
+      <a href="index.html">خانه</a>
+      <a href="inventory.html" class="on">موجودی خودروها</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+  </div>
+  <div><h4>ساعت محلی</h4><div class="clock" id="clock">--:--:--</div><p>تلفن: <span dir="ltr">۰۹۰۳۷۲۵۸۱۵۶</span></p></div>
+  <div class="copy">© امیر موتورز – همه حقوق محفوظ است.</div>
+</div></footer>
+
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
